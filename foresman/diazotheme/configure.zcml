@@ -1,0 +1,10 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+    <plone:static
+            name="foresman.diazotheme"
+            directory="theme/foresman.diazotheme"
+            type="theme" />
+
+</configure>

@@ -1,0 +1,10 @@
+Changelog
+------------
+
+0.1 (unreleased)
+~~~~~~~~~~~~~~~~
+
+    * setup the package and try not to f it up.
+    * add in Golden Grid system
+    * Setup initial CSS
+

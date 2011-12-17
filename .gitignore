@@ -1,0 +1,93 @@
+###########################################################
+### Uber-generic .gitignore file. Edit to taste.
+###########################################################
+
+
+### Stuff local to this repo
+#
+
+# editor and revision mgt stuff
+###############################
+.svn
+.bzr
+.hgsvn
+*.komodoproject
+.hg
+.wpr
+.sublime*
+
+#build and log files
+###############################
+*.o
+*.pyc
+*.pyo
+*.out
+*.log
+*.tmp
+*.tmp*
+*.mo
+*.egg
+*.EGG
+*.EGG-INFO
+build
+downloads
+dist
+
+#Apple / Mac stuff
+###############################
+.DS_Store
+._*
+.Trash
+*.app
+
+#crazy files
+###############################
+META
+tmp/
+junk
+trash
+
+#  Binary stuff I don't want
+#  in a repo.
+###############################
+*.exe
+*.zip
+*.tgz
+*.tar
+*.bzip
+*.tbz
+*.gz
+*.bin
+*.zexp
+
+# obvious backup files
+###############################
+*.orig
+*.bak
+*~
+~*
+
+#database files
+###############################
+*.db
+Data.f*
+*.sqlite
+
+
+# plone/zope stuff
+#########################
+version_pins.cfg
+fake-eggs
+develop-eggs
+var/*
+eggs
+parts/*
+opt
+*egg-info
+WingDBG
+.installed.cfg
+adminPassword.txt
+picked-versions.cfg
+.mr.developer.cfg
+
+
