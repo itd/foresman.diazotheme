@@ -1,97 +1,178 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!-- Conditional comment for mobile ie7 http://blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Greg Foresman site Sample Ideas</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="utf-8">
 
-    <script>
-    /*
-    //optional: set config options here!
-    var rwd_images = {
-    widthBreakPoint: 600
-    };
-    */
-    </script>
-    <!--script src="assets/js/responsiveimgs.js"></script -->
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Add modernizer, apple icon if your application needs it -->
+  <!-- Mobile viewport optimization http://goo.gl/z0PA8 -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Home screen icon  Mathias Bynens http://goo.gl/6nVq0 -->
+  <!-- For iPhone 4 with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+  <!-- For first-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+  <!-- For nokia devices: -->
+  <link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+
+  <!-- iOS web app, deletable if not needed -->
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
+
+  <!-- 320x460 for iPhone 3GS -->
+  <!-- <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and not (-webkit-min-device-pixel-ratio: 2)" href="img/startup.png"> -->
+  <!-- 640x920 for retina display -->
+  <!-- <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="img/startup-retina.png"> -->
+  <!-- iPad Portrait 768x1004 -->
+  <!-- <link rel="apple-touch-startup-image" media="(min-device-width: 768px) and (orientation: portrait)" href="img/startup-tablet-portrait.png"> -->
+  <!-- iPad Landscape 1024x748 -->
+  <!-- <link rel="apple-touch-startup-image" media="(min-device-width: 768px) and (orientation: landscape)" href="img/startup-tablet-landscape.png"> -->
+
+  <!-- The script prevents links from opening in mobile safari. https://gist.github.com/1042026 -->
+  <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
+
+  <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+  <meta http-equiv="cleartype" content="on">
+
+  <!-- more tags for your 'head' to consider https://gist.github.com/849231 -->
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=1">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-custom.js"></script>
+  <!-- Media Queries Polyfill https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill -->
+  <script>Modernizr.mq('(min-width:0)') || document.write('<script src="js/libs/respond.min.js"><\/script>')</script>
 </head>
-<body class="small">
-    <div id="topper">
-        <p>testing, testing, 1, 2, 3...</p>
-    </div>
-    <header>
+
+
+<body class="clearfix tk-facitweb">
+
+  <div id="container">
+
+    <img class="bg" src="images/gf-front-gimp.png" />
+
+    <header role="banner" class="clearfix">
+      <hgroup>
+        <h1>Greg Foresman</h1>
+      </hgroup>
+
+      <p></p>
     </header>
-    <section id="Intro">
-        <h1>Greg Foresman Sample Ideas</h1>
-        <article class="wrapper">
 
-            <p>Here's a quick mock-up of rev 2 with some HTML instead of just an image.</p>
-
-            <p>Click on the thumbnail images for a big version of the images:</p>
-            </p>
-            <ul>
-            <li><a href=home.html>the Home page</a>
-                <a href=home.html><img src=rev2-gf-on-black/front-page-t.jpg /></a>
-            </ul>
-
-            <p>I have to work on the type face stuff, and it needs some layout love.
-            <p>The quotes could rotate on the home page. </p>
+    <div class="content clearfix">
 
 
-            <p>It's a start.</p>
+      <div id="main" role="main">
+        <!--
+        <h2>This really needs to be here just to hold about
+        50% of the space.</h2>
 
-        </article>
-    </section>
+        <p></p>
+        -->
+      </div>
 
-<!--
-    <section class="photoblock">
+      <div role="leftcolumn">
 
-        <article class="wrapper odd">
-            <p>click image for larger version</p>
-            <p>
-                <a href="images/iphone-example-layout.jpg"><img src="images/iphone-example-layout-s.jpg" /></a>
-            </p>
-        </article>
+        <ul class="navlinks">
+          <!-- Give href an ID value of corresponding "tabs-content" <li>'s -->
+          <!-- li><a class="active" href="#">home</a></li -->
+          <li><a href="#.html">Dates</a></li>
+          <li><a href="#.html">Past Shows</a></li>
+          <li><a href="#.html">Photos</a></li>
+          <li><a href="#.html">Videos</a></li>
+          <li><a href="#.html">Contact</a></li>
+        </ul>
 
-        <article class="wrapper">
-            <p>click image for larger version</p>
-            <p>
-                <a href="images/web-browser-layout.jpg"><img src="images/web-browser-layout-s.jpg"/></a>
-            </p>
-        </article>
 
-    </section>
+        <div id="frontQuotes" class="four columns offset-by-nine">
+          <p class="quote">"(KODIAK) is a Blues-Rock killer"</p>
+          <p class="quote-by">(Vintage Guitar Magazine)</p>
+        </div>
 
--->
-    <footer id="colophon">
-        <section class="wrapper" id="contact">
-            <p>Kurt: 720-663-8665 </p>
-        </section>
 
+      </div>
+    </div>
+
+    <footer role="contentinfo" class="clearfix">
+    <!-- We don't need no stinkin' footer!!!!!
+
+      <div class="vcard">
+
+        <ul>
+        <li>Developed by
+          <a href="http://tool.net" class="fn org url" rel="me">Kurt Bendl</a>.
+          <a href="http://twitter.com/KurtB" class="url" rel="me">@tool</a> dot net<br>
+          and <a href="http://tool.net/" class="fn org url" rel="colleague">ITD</a>.
+        </li>
+        <li>Share on <a href="http://twitter.com/share?url=http://gregforesman.com&amp;via=KurtB&amp;&amp;text=Greg%20Foresman%20blues%20Rock.">Twitter</a> or <a href="http://www.facebook.com/sharer.php?u=http://gregforesman.com&amp;&amp;t=Greg%20Foresman">Facebook</a></li>
+        </ul>
+      </div>
+
+      <small>For booking information, contact
+        <a href="http://html5boilerplate.com/">Greg Foresman</a>
+        at
+        <a href="mailto:xxxxxx@xxxx.com">[SOME EMAIL ADDRESS]</a>
+      </small>
+      -->
     </footer>
 
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-    <script defer src="assets/js/plugins.js"></script>
-    <script defer src="assets/js/script.js"></script>
+  </div> <!--! end of #container -->
 
-    <!-- Remove this in production enviornment -->
-    <!-- script src="assets/js/mylibs/GGS.js" type="text/javascript" charset="utf-8"></script -->
 
-    <!--[if lt IE 7 ]>
-        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-        <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-    <![endif]-->
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <script src="js/libs/DOMAssistantCompressed-2.8.js"></script>
+  <script src="js/libs/selectivizr-1.0.1.js"></script>
+  <script src="js/libs/respond.min.js"></script>
+  <![endif]-->
+
+
+
+
+  <!-- Scripts -->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via ant build script -->
+  <script src="js/mylibs/helper.js"></script>
+  <!-- end concatenated and minified scripts-->
+
+  <script>
+    // iPhone Scale Bug Fix, read this when using http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/
+    window.onload = function() {
+        MBP.scaleFix();
+    }
+  </script>
+
+  <!-- Debugger - remove for production -->
+  <!-- <script src="https://getfirebug.com/firebug-lite.js"></script> -->
+
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+  <noscript>Your browser does not support JavaScript!</noscript>
 
 </body>
 </html>
