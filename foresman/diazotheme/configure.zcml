@@ -4,7 +4,7 @@
 
     <plone:static
             name="foresman.diazotheme"
-            directory="theme/foresman.diazotheme"
+            directory="static"
             type="theme" />
 
 </configure>
