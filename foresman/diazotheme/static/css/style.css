@@ -225,12 +225,12 @@ text-align: center;
 ul#top-globalnav {
   margin: 0;
 }
-#leftcolumn {
+/*#leftcolumn {
   float: right;
   width: 31.999%;
   padding-top: 2.5em;
 }
-
+*/
 .navlinks li {
 list-style-type : none;
 font-size: 200%;
@@ -259,6 +259,15 @@ margin-bottom : 0; }
     text-decoration: none;
 }
 
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+  border: none;
+}
+dl.portlet dt.hiddenStructure {
+  background-color: transparent;
+}
+.icons-on .contenttype-document, .icons-on .contenttype-event, .icons-on .contenttype-folder, .icons-on .contenttype-link, .icons-on .contenttype-news-item, .icons-on .contenttype-plone-site, .icons-on .contenttype-collection, .icons-on .contenttype-topic, .icons-on #plone-contentmenu-factories .contenttype-file, .icons-on #plone-contentmenu-factories .contenttype-image  {
+  background: none;
+}
 
 /* 10.CONTENT */
 
@@ -288,12 +297,17 @@ img.bg {
 .section-homepage img.bg {
   opacity: 1;
 }
+.section-homepage #leftcolumn {
+width: 40%;
+float: right;
+}
 /* 11.MAIN */
-#main {
-width : 64.67%;  /* 528 / 804 = .6567 */
+/*#main {
+width : 64.67%;
 float: left;
 padding: 0 2.32%;
 }
+*/
 
 
 /* 12.HOMESTUFF */
@@ -591,12 +605,12 @@ font-size : 1.125em; /* 18 / 16 = 1.125 */ }
 
 /* 11.MAIN */
 
-*[role="main"] {
+/**[role="main"] {
 float : left;
-width : 58.92%; /* 528 / 896 = .5892*/
+width : 58.92%;
 margin-bottom : 0;
 border-bottom-width : 0; }
-
+*/
 *[role="main"] p {
 line-height : 1.4;
 }

@@ -21,24 +21,29 @@
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
     <copy attributes="role" css:content="content" css:theme="contentspace" />
-    <replace css:content="#portal-columns" css:theme="#main" />
+    <replace css:content="#portal-column-content" css:theme-children="#main" />
+
+
+    <copy css:content="head title" css:theme-children="hgroup h1 a" />
 
     <!-- Global navigation -->
-        <replace css:content='#portal-globalnav li' css:theme-children='.navlinks' />
-        <!--   nav or content  -->
-        <replace css:content='#portal-globalnav li' css:theme-children='#top-globalnav' />
+    <replace css:content='#portal-globalnav li' css:theme-children='.navlinks' />
+    <!--   nav or content  -->
+    <replace css:content='#portal-globalnav li' css:theme-children='#top-globalnav' />
 
+
+    <replace css:content-children="#portal-column-two" css:theme-children="#leftcolumn" />
 
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />
-    <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
-
     <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" />
 
     <replace css:content="#portal-header p.hiddenStructure" css:theme="#accessibility" />
 
 
     <drop css:content=".searchSection" />
+    <drop css:content="#portal-breadcrumbs" />
+    <drop css:content=".navTreeItem img" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
     <replace css:content-children="#portal-footer" css:theme="#footer-info" />
@@ -49,8 +54,8 @@
     <!-- Control Panel -->
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
 
-    <!-- drop the home button from the home page only -->
-    <!-- drop css:content=".section-homepage #portaltab-index_html" / -->
+    <!-- drop stuff from the home page only -->
+    <drop css:content=".section-homepage #portal-column-content" />
     <!-- drop content="li[@id='portaltab-index_html']" / -->
     <!-- drop content="li[@id='portaltab-index_html']" / -->
 
